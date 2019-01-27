@@ -3,14 +3,12 @@ import VueRouter from 'vue-router'
 import Login from '@/components/Login.vue'
 import testComp from '@/components/TestComp.vue'
 
-Vue.use(VueRouter)
-
-debugger;
+Vue.use(VueRouter);
 
 const router = new VueRouter({
 routes: [
     {
-        path: '#/login',
+        path: '/login',
         name: 'login',
         component: Login
     },
